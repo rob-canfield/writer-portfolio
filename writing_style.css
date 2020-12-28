@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	width: 980px;
+	margin: 0 auto;
+	font-family: "times new roman";
+	/*
+	background-image: url(images/contact_background.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	*/
+}
+
+#content #footer{
+	overflow: auto;
+	height: 100%;
+	text-align: center;
+	font-size: 10px;}
+
+p.copyright{
+	font-size: 10px;
+	padding-top: 30px;}
+
+#nav{
+	align-content: right;
+	float: right;
+	margin-top: 23px;
+	font-family: "times new roman"}
+
+#footer{
+	font-size: 10px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 15px;}
+h1{
+	text-align: center;
+	color: #6ea36f;
+	border-bottom: thin solid #efbad2;}
+
+h2{
+	font-family: "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
+
+h3{
+	font-family: "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	color:#939393;}
+
+
+
+button{
+	text-align: center;
+	background-color: #B3B3B3;
+	padding: 15px 32px;
+	text-decoration: none;
+	border: none;
+	align-content: center;
+	color: white;}
+
+a.writ{
+	text-decoration: none;
+	color: #6ea36f;
+}
+
+
+a.writ:hover{
+	text-decoration: none;
+	color: #6ea36f;
+	font-family: "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+li{
+	display: inline;
+	font-size: 18px;
+	margin-top: 80px;
+	margin-left: 30px;
+	font-family: "times new roman";}
+
+a.current{
+	color: #6ea36f;
+	text-decoration-line: underline;}
+
+.social:hover{
+	fill: #6ea36f;}
+
+a{
+	color: black;
+	text-decoration: none;}
+a.cont{
+	font-family: "times new roman";
+	color: #29562a;
+}
+
+a:hover{
+	color: #6ea36f;
+	text-decoration: underline;}
+
+a:active{
+	color: #efbad2;}
+
+p.end h3.end{
+	margin-bottom: 30px;
+}
+
+svg{
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #CFCFCF}
+.social{
+	color: #cfcfcf;
+}
+.social:hover{
+	fill: #6ea36f;}
+
+.home{
+	margin-top: 27px;
+}
+
+
+
+.writL{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.writR{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
